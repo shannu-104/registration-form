@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+.box{
+  background-color: blue;
+  width: 40%;
+  border-radius: 10px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.input {
+  padding: 10px 15px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+label {
+  font-size: 18px;
+  letter-spacing: 1.4px;
+}
+.tableForm {
+  margin-top: 10px;
+}
+.btn {
+  background-color: rgb(255, 10, 10);
+  color: white;
+  padding: 10px 20px;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+input:invalid:focus {
+  border: 2px solid red;
+}
+
+.table {
+  border: 2px solid black;
+  margin: 40px auto;
+}
+
+.td,
+.th {
+  padding: 10px;
+  text-align: center;
+}
+
+.subHead {
+  text-align: center;
+  margin-top: 2rem;
+}
+.text_center{
+  color: red;
+}
